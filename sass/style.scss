@@ -1,5 +1,33 @@
+@import "reset";
+@import "variables";
+
 .intro, .cards {
-    margin: 8%
+    margin: 8%;
+}
+
+.intro {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.intro__title {
+    &--main {
+        font-weight: 600;
+    }
+    &--secondary {
+        font-weight: 200;
+    }
+}
+
+.intro__text {
+    margin-top: 8%;
+    margin-bottom: 20%;
+}
+
+.card {
+    .card-img-bottom {
+        width: 20%;
+    }
 }
 
 .attribution { 
