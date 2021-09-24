@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  background-color: #fafafa;
 }
 
 .intro, .cards {
@@ -25,13 +26,53 @@ body {
 .intro__text {
   margin-top: 8%;
   margin-bottom: 20%;
+  color: #a3a5ae;
+  line-height: 1.7;
+}
+
+.card {
+  padding: 4%;
+  margin-bottom: 6%;
+  border-color: transparent;
+  border-radius: .30rem;
+  -webkit-box-shadow: 0 10px 20px -10px #a3a5ae;
+          box-shadow: 0 10px 20px -10px #a3a5ae;
+}
+
+.card .card-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.card .card-text {
+  padding-bottom: 8%;
+  color: #a3a5ae;
+  font-size: 0.85rem;
+  line-height: 1.8;
 }
 
 .card .card-img-bottom {
   width: 20%;
 }
 
+.supervisor {
+  border-top: #45d3d3 0.3rem solid;
+}
+
+.team-builder {
+  border-top: #ea5353 0.3rem solid;
+}
+
+.karma {
+  border-top: #fcaf4a 0.3rem solid;
+}
+
+.calculator {
+  border-top: #549ef2 0.3rem solid;
+}
+
 .attribution {
+  padding-top: 10%;
   font-size: 11px;
   text-align: center;
 }
