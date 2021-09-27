@@ -1,6 +1,9 @@
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   background-color: #fafafa;
@@ -36,6 +39,7 @@ body {
   margin-bottom: 6%;
   border-color: transparent;
   border-radius: .30rem;
+  border-top: 0.3rem solid;
   -webkit-box-shadow: 0 10px 20px -10px #a3a5ae;
           box-shadow: 0 10px 20px -10px #a3a5ae;
 }
@@ -57,19 +61,19 @@ body {
 }
 
 .supervisor {
-  border-top: #45d3d3 0.3rem solid;
+  border-top-color: #45d3d3;
 }
 
 .team-builder {
-  border-top: #ea5353 0.3rem solid;
+  border-top-color: #ea5353;
 }
 
 .karma {
-  border-top: #fcaf4a 0.3rem solid;
+  border-top-color: #fcaf4a;
 }
 
 .calculator {
-  border-top: #549ef2 0.3rem solid;
+  border-top-color: #549ef2;
 }
 
 .attribution {

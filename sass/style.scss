@@ -1,4 +1,5 @@
 @import "reset";
+@import "base";
 @import "variables";
 
 .intro, .cards {
@@ -32,6 +33,7 @@
     margin-bottom: 6%;
     border-color: transparent;
     border-radius: .30rem;
+    border-top: 0.3rem solid;
     box-shadow: 0 10px 20px -10px $text-light;
 
     .card-title {
@@ -52,19 +54,19 @@
 }
 
 .supervisor {
-    border-top: $cyan 0.3rem solid;
+    border-top-color: $cyan;
 }
 
 .team-builder {
-    border-top: $red 0.3rem solid;
+    border-top-color: $red;
 }
 
 .karma {
-    border-top: $orange 0.3rem solid;
+    border-top-color: $orange;
 }
 
 .calculator {
-    border-top: $blue 0.3rem solid;
+    border-top-color: $blue;
 }
 
 .attribution { 
