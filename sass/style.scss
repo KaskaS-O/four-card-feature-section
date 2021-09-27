@@ -9,15 +9,27 @@
 .intro {
     margin-top: 20%;
     text-align: center;
+
+    @media (min-width: 1024px) {
+        margin-top: 15%;
+    }
 }
 
 .intro__title {
     &--main {
         font-weight: 600;
+
+        @media (min-width: 768px) {
+            font-size: 2rem;
+        }
     }
     &--secondary {
         font-weight: 200;
         color: $text-light;
+
+        @media (min-width: 768px) {
+            font-size: 2rem;
+        }
     }
 }
 
@@ -26,6 +38,10 @@
     margin-bottom: 20%;
     color: $text-light;
     line-height: 1.7;
+
+    @media (min-width: 1024px) {
+        margin-bottom: 15%;
+    }
 }
 
 .card {
@@ -36,9 +52,18 @@
     border-top: 0.3rem solid;
     box-shadow: 0 10px 20px -10px $text-light;
 
+    @media (min-width: 768px) {
+        border-top: 0.35rem solid;
+    }
+
     .card-title {
         font-weight: 600;
         font-size: 1.4rem;
+
+        @media (min-width: 768px) {
+            padding-bottom: 2%;
+            font-size: 1.6rem;
+        }
     }
 
     .card-text {
@@ -46,6 +71,10 @@
         color: $text-light;
         font-size: 0.85rem;
         line-height: 1.8;
+
+        @media (min-width: 768px) {
+            font-size: 0.95rem;
+        }
     }
 
     .card-img-bottom {

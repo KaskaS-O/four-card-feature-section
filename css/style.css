@@ -9,6 +9,12 @@ body {
   background-color: #fafafa;
 }
 
+@media (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
+
 .intro, .cards {
   margin: 8%;
 }
@@ -18,8 +24,20 @@ body {
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  .intro {
+    margin-top: 15%;
+  }
+}
+
 .intro__title--main {
   font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .intro__title--main {
+    font-size: 2rem;
+  }
 }
 
 .intro__title--secondary {
@@ -27,11 +45,23 @@ body {
   color: #a3a5ae;
 }
 
+@media (min-width: 768px) {
+  .intro__title--secondary {
+    font-size: 2rem;
+  }
+}
+
 .intro__text {
   margin-top: 8%;
   margin-bottom: 20%;
   color: #a3a5ae;
   line-height: 1.7;
+}
+
+@media (min-width: 1024px) {
+  .intro__text {
+    margin-bottom: 15%;
+  }
 }
 
 .card {
@@ -44,9 +74,22 @@ body {
           box-shadow: 0 10px 20px -10px #a3a5ae;
 }
 
+@media (min-width: 768px) {
+  .card {
+    border-top: 0.35rem solid;
+  }
+}
+
 .card .card-title {
   font-weight: 600;
   font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .card .card-title {
+    padding-bottom: 2%;
+    font-size: 1.6rem;
+  }
 }
 
 .card .card-text {
@@ -54,6 +97,12 @@ body {
   color: #a3a5ae;
   font-size: 0.85rem;
   line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+  .card .card-text {
+    font-size: 0.95rem;
+  }
 }
 
 .card .card-img-bottom {
