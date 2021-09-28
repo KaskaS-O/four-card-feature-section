@@ -17,16 +17,19 @@
 </head>
 <body>
   
-  <section class="intro">
+<div class="container">
+  <div class="row justify-content-center">
+  <section class="intro col-xxl-6">
     <h2 class="intro__title--secondary">Reliable, efficient delivery</h2>
     <h2 class="intro__title--main">Powered by Technology</h2>
 
     <p class="intro__text">Our Artificial Intelligence powered tools use millions of project data points 
     to ensure that your project is successful</p>
     </section>
+  </div>
 
-  <section class="cards">   
-    <div class="card supervisor">
+  <section class="cards row justify-content-evenly">   
+    <div class="card supervisor col-xxl-3">
       <div class="card-body">
         <h3 class="card-title">Supervisor</h3>
         <p class="card-text">Monitors activity to identify project roadblocks</p>
@@ -34,7 +37,7 @@
       </div>
     </div>
 
-    <div class="card team-builder">
+    <div class="card team-builder col-xxl-3">
       <div class="card-body">
         <h3 class="card-title">Team Builder</h3>
         <p class="card-text">  Scans our talent network to create the optimal team for your project</p>
@@ -42,7 +45,7 @@
       </div>
     </div>
 
-    <div class="card karma">
+    <div class="card karma col-xxl-3 order-xxl-last">
       <div class="card-body">
         <h3 class="card-title">Karma</h3>
         <p class="card-text">  Regularly evaluates our talent to ensure quality</p>
@@ -50,21 +53,26 @@
       </div>
     </div>
 
-    <div class="card calculator">
+    <div class="card calculator col-xxl-3">
       <div class="card-body">
         <h3 class="card-title">Calculator</h3>
         <p class="card-text">  Uses data from past projects to provide better delivery estimates</p>
         <img src="./images/icon-calculator.svg" class="card-img-bottom float-end" alt="computer monitor">
       </div>
     </div>
+    <div class="w-100"></div>
+
   </section>
 
-  <footer>
+  <footer class="row">
+    <div class="col">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">CodingDuck</a>.
     </p>
+  </div>
   </footer>
+</div>
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
 </body>
 </html>
